@@ -1,0 +1,29 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Swaglabtest">
+
+    <test name="Regression test">
+        <groups>
+            <run>
+                <include name="regression"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="tests.Logintest"/>
+            <class name="tests.Socialmedia"></class>
+        </classes>
+    </test>
+
+    <test name="Smoke test">
+        <groups>
+            <run>
+                <include name="smoke"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="tests.Inventorytest"/>
+            <class name="tests.CartTest"/>
+        </classes>
+    </test>
+
+</suite>

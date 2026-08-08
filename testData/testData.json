@@ -1,0 +1,23 @@
+{
+  "validLogin": {
+    "username": "standard_user",
+    "password": "secret_sauce"
+  },
+  "invalidLogin": {
+    "username": "error_user",
+    "password": "0000"
+  },
+  "noPasswordLogin": {
+    "username": "error_user",
+    "password": ""
+  },
+  "productName": [
+    "Sauce Labs Backpack",
+    "Sauce Labs Bolt T-Shirt",
+    "Sauce Labs Onesie"
+  ],
+  "RemaningName": [
+    "Sauce Labs Backpack",
+    "Sauce Labs Onesie"
+  ]
+}
